@@ -17,7 +17,7 @@ Este projeto foi desenvolvido para a disciplina de Comunicações Móveis (PPGEE
 A implementação está dividida de forma modular. Na raiz do projeto encontram-se os guiões principais de execução, enquanto o subdiretório `Classes/` contém os módulos matemáticos específicos da norma.
 
 ### Ficheiros Principais (Raiz)
-* `path_loss_3GPP_TR_38_901.py`: Guião principal orquestrador da simulação. Integra as classes, calcula as perdas de percurso (path loss) e define o cenário base.
+* `path_loss_3GPP_TR_38_901.py`: Principal classe da simulação. Integra as classes, calcula as perdas de percurso (path loss) e define o cenário base.
 * `potencia_recebida.py`: Responsável por simular o sinal no domínio do tempo, reconstruindo o sinal recebido em banda básica e demonstrando a seletividade em frequência.
 * `coerencia_canal.py`: Implementa a análise de autocorrelação bidimensional ($\rho_{TT}$), gerando as superfícies 3D e extraindo o impacto do espalhamento de atraso e da velocidade no canal.
 
