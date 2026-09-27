@@ -28,9 +28,6 @@ A implementação foi dividida modularmente para separar a geração estatístic
 * `autocorrelacao.py`
   * **Descrição:** Implementa a equação de Autocorrelação Bidimensional Normalizada do canal ($\rho_{TT}$). Gera as superfícies 3D e extrai as fatias transversais para analisar o impacto do espalhamento de atraso na Banda de Coerência e o impacto da velocidade no Tempo de Coerência.
 
-* `formatar_apresentacao.py`
-  * **Descrição:** Script auxiliar utilizando `python-pptx` para percorrer slides de apresentações geradas sobre o projeto, alterando dinamicamente a cor de fundo para branco puro e os textos e tabelas para escuro, garantindo legibilidade e contraste sem alterar layouts ou imagens.
-
 ## Dependências
 
 Certifique-se de instalar as bibliotecas necessárias antes de executar os módulos e utilitários:
